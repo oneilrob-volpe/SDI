@@ -1,0 +1,16 @@
+
+__pycache__/
+*.py[cod]
+.vs/
+.vscode/
+docs/
+logs/
+output/
+sample/
+data/waze*/
+data/FARS2015NationalCSV/*
+!data/FARS2015NationalCSV/accident.csv
+data/FARS2015NationalCSV.zip
+data/Sandbox.gdb/
+data/fars_queries.sql
+run_waze_loader_2017_10_02_15_51_57.log

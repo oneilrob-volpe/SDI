@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{d5fafc1b-a525-4a41-b01e-2ec41f019b8e}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>fars_loader.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include=".pylintrc" />
+    <Content Include="fars_loader.cfg" />
+    <Content Include="output\counts_by_hour.txt" />
+    <Content Include="output\counts_by_roadtype.txt" />
+    <Content Include="output\counts_by_subtype.txt" />
+    <Content Include="output\counts_by_type.txt" />
+    <Content Include="output\counts_by_type_subtype.txt" />
+    <Content Include="output\duplicates_in_2015.txt" />
+    <Content Include="output\fake_fars_2017.txt" />
+    <Content Include="output\fake_waze_2017.txt" />
+    <Content Include="output\waze_in_2016.txt" />
+    <Content Include="output\waze_in_8_june_17_all.txt" />
+    <Content Include="output\waze_in_8_june_17_collapsed.txt" />
+    <Content Include="output\waze_in_8_june_17_filtered.txt" />
+    <Content Include="output\waze_in_aug_2017.txt" />
+    <Content Include="README.md" />
+    <Content Include="timings.txt" />
+    <Content Include="waze_loader.cfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="fars_loader.py" />
+    <Compile Include="multi_test.py" />
+    <Compile Include="pypyodbc.py" />
+    <Compile Include="sample_code\close_airports.py" />
+    <Compile Include="sample_code\querywazedata.py" />
+    <Compile Include="sample_code\wazedatapull.py" />
+    <Compile Include="sample_code\wazedata_exploration.py" />
+    <Compile Include="sample_code\wb_load.py" />
+    <Compile Include="sample_code\wb_utils.py" />
+    <Compile Include="scratch.py" />
+    <Compile Include="utilities.py" />
+    <Compile Include="waze_loader.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="output" />
+    <Folder Include="sample_code" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>

@@ -1,0 +1,82 @@
+10-05 13:14 root         DEBUG    cfg param FILE_LOGGING_LEVEL : debug
+10-05 13:14 root         DEBUG    cfg param CONSOLE_LOGGING_LEVEL : info
+10-05 13:14 root         DEBUG    cfg param DATA_FOLDER : C:\Users\robert.oneil.ctr\Documents\projects\OTS-P Data Fusion\data\waze_IN
+10-05 13:14 root         DEBUG    cfg param DB_SERVER : .\SQLEXPRESS2012
+10-05 13:14 root         DEBUG    cfg param FIRST_DATE : 6/8/2017
+10-05 13:14 root         DEBUG    cfg param FILTER_ALERT_SUBTYPES : 1,2,13
+10-05 13:14 root         DEBUG    cfg param DB_TRUSTED : Trusted_Connection=yes
+10-05 13:14 root         DEBUG    cfg param DUPLICATE_FILE : duplicates_in_2015.txt
+10-05 13:14 root         DEBUG    cfg param LOG_DIRECTORY : C:\Users\robert.oneil.ctr\Documents\projects\OTS-P Data Fusion\logs
+10-05 13:14 root         DEBUG    cfg param WAZE_IMPORT_TABLENAME : waze_IN_2015
+10-05 13:14 root         DEBUG    cfg param DB_DRIVER : SQL Server
+10-05 13:14 root         DEBUG    cfg param OUTPUT_FOLDER : C:\Users\robert.oneil.ctr\Documents\projects\OTS-P Data Fusion\output
+10-05 13:14 root         DEBUG    cfg param DB_USER : 
+10-05 13:14 root         DEBUG    cfg param LAST_DATE : 6/9/2017
+10-05 13:14 root         DEBUG    cfg param DB_NAME : OTSPDataFusion
+10-05 13:14 root         DEBUG    cfg param DB_PASS : 
+10-05 13:14 root         DEBUG    cfg param STUDY_FILE : waze_in_2015_2017.txt
+10-05 13:14 root         DEBUG    cfg param PROGRAM_NAME : waze_loader
+10-05 13:14 root         DEBUG    cfg param WORK_SUBSET : C:\Users\robert.oneil.ctr\Documents\projects\OTS-P Data Fusion\data\subset
+10-05 13:14 root         INFO     Start time 2017-10-05 13:14:13
+10-05 13:14 root         INFO     Processing files in C:\Users\robert.oneil.ctr\Documents\projects\OTS-P Data Fusion\data\waze_IN
+10-05 13:14 root         INFO     Starting to filter records in C:\Users\robert.oneil.ctr\Documents\projects\OTS-P Data Fusion\data\waze_IN by dates 6/8/2017 - 6/9/2017, matching subtypes [1, 2, 13]
+10-05 13:18 root         INFO     Filtering file 1000
+10-05 13:21 root         INFO     Filtering file 2000
+10-05 13:25 root         INFO     Filtering file 3000
+10-05 13:28 root         INFO     Filtering file 4000
+10-05 13:32 root         INFO     Filtering file 5000
+10-05 13:35 root         INFO     Filtering file 6000
+10-05 13:39 root         INFO     Filtering file 7000
+10-05 13:42 root         INFO     Filtering file 8000
+10-05 13:46 root         INFO     Filtering file 9000
+10-05 13:49 root         INFO     Filtering file 10000
+10-05 13:53 root         INFO     Filtering file 11000
+10-05 13:56 root         INFO     Filtering file 12000
+10-05 14:00 root         INFO     Filtering file 13000
+10-05 14:03 root         INFO     Filtering file 14000
+10-05 14:07 root         INFO     Filtering file 15000
+10-05 14:10 root         INFO     Filtering file 16000
+10-05 14:14 root         INFO     Filtering file 17000
+10-05 14:18 root         INFO     Filtering file 18000
+10-05 14:21 root         INFO     Filtering file 19000
+10-05 14:25 root         INFO     Filtering file 20000
+10-05 14:28 root         INFO     Filtering file 21000
+10-05 14:32 root         INFO     Filtering file 22000
+10-05 14:35 root         INFO     Filtering file 23000
+10-05 14:39 root         INFO     Filtering file 24000
+10-05 14:43 root         INFO     Filtering file 25000
+10-05 14:46 root         INFO     Filtering file 26000
+10-05 14:50 root         INFO     Filtering file 27000
+10-05 14:53 root         INFO     Filtering file 28000
+10-05 14:57 root         INFO     Filtering file 29000
+10-05 15:00 root         INFO     Filtering file 30000
+10-05 15:04 root         INFO     Filtering file 31000
+10-05 15:07 root         INFO     Filtering file 32000
+10-05 15:11 root         INFO     Filtering file 33000
+10-05 15:15 root         INFO     Filtering file 34000
+10-05 15:18 root         INFO     Filtering file 35000
+10-05 15:22 root         INFO     Filtering file 36000
+10-05 15:25 root         INFO     Filtering file 37000
+10-05 15:29 root         INFO     Filtering file 38000
+10-05 15:32 root         INFO     Filtering file 39000
+10-05 15:36 root         INFO     Filtering file 40000
+10-05 15:40 root         INFO     Filtering file 41000
+10-05 15:43 root         INFO     Filtering file 42000
+10-05 15:47 root         INFO     Filtering file 43000
+10-05 15:50 root         INFO     Filtering file 44000
+10-05 15:54 root         INFO     Filtering file 45000
+10-05 15:58 root         INFO     Filtering file 46000
+10-05 16:01 root         INFO     Filtering file 47000
+10-05 16:05 root         INFO     Filtering file 48000
+10-05 16:08 root         INFO     Filtering file 49000
+10-05 16:12 root         INFO     Filtering file 50000
+10-05 16:15 root         INFO     Filtering file 51000
+10-05 16:19 root         INFO     Filtering file 52000
+10-05 16:22 root         INFO     Filtering file 53000
+10-05 16:26 root         INFO     Filtering file 54000
+10-05 16:29 root         INFO     Filtering file 55000
+10-05 16:33 root         INFO     Filtering file 56000
+10-05 16:37 root         INFO     Filtering file 57000
+10-05 16:39 root         INFO     Filtered files to list of 1473
+10-05 16:39 root         INFO     Current time 16:39:17
+10-05 16:39 root         INFO     Creating working set of files: C:\Users\robert.oneil.ctr\Documents\projects\OTS-P Data Fusion\data\subset

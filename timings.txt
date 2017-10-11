@@ -1,0 +1,38 @@
+Proessed 0 files, found 0 files
+Proessed 100 files, found 1 files
+Proessed 200 files, found 2 files
+Proessed 300 files, found 2 files
+Proessed 400 files, found 5 files
+Proessed 500 files, found 8 files
+Proessed 600 files, found 11 files
+Proessed 700 files, found 14 files
+Proessed 800 files, found 16 files
+Proessed 900 files, found 19 files
+extract_filter_regex complete; processed 1000 files, found 20 files
+Now is 2017-10-09 22:22:32.  Elapsed run time (HH:MM:SS) = 00:00:38
+
+Proessed 0 files, found 0 files
+Proessed 100 files, found 1 files
+Proessed 200 files, found 2 files
+Proessed 300 files, found 2 files
+Proessed 400 files, found 5 files
+Proessed 500 files, found 8 files
+Proessed 600 files, found 11 files
+Proessed 700 files, found 14 files
+Proessed 800 files, found 16 files
+Proessed 900 files, found 19 files
+extract_filtered_json complete; processed 1000 files, found 20 files
+Now is 2017-10-09 22:24:02.  Elapsed run time (HH:MM:SS) = 00:01:29
+
+Proessed 0 files, found 0 files
+Proessed 100 files, found 1 files
+Proessed 200 files, found 2 files
+Proessed 300 files, found 2 files
+Proessed 400 files, found 5 files
+Proessed 500 files, found 8 files
+Proessed 600 files, found 11 files
+Proessed 700 files, found 14 files
+Proessed 800 files, found 16 files
+Proessed 900 files, found 19 files
+extract_filter_regex_json complete; processed 1000 files, found 20 files
+Now is 2017-10-09 22:25:02.  Elapsed run time (HH:MM:SS) = 00:01:00
